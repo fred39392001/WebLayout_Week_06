@@ -10,24 +10,26 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfume.png?raw=true" alt=""></a>
+      <a class="nav-link d-md-none" href="#">
+        <svg class="pb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="#8D8D8D" width="20px" height="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>Cart(3)</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mr-2">
+          <li class="nav-item mr-2 d-none d-md-block">
             <a class="nav-link" href="#"><svg class="pb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#8D8D8D" width="20px" height="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z"/></svg>Product</a>
           </li>
-          <li class="nav-item mr-2">
+          <li class="nav-item mr-2 d-none d-md-block">
             <a class="nav-link" href="#"><svg class="pb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#8D8D8D" width="20px" height="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>Login</a>
           </li>
-          <li class="nav-item mr-2">
+          <li class="nav-item mr-2 d-none d-md-block">
             <a class="nav-link" href="#"><svg class="pb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#8D8D8D" width="20px" height="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>Wishlist</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-md-block">
             <a class="nav-link" href="#">
               <svg class="pb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="#8D8D8D" width="20px" height="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>Cart(3)</a>
           </li>
@@ -35,39 +37,61 @@
       </div>
     </div>
   </nav>
-  <section class="bg-cover d-flex flex-column justify-content-center" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true); height:870px;">
-    <div class="container">
-      <div class="row justify-content-end">
-        <div class="col-5">
-          <h2 class="text-white font-weight-bold">Perfume your day</h2>
-          <p class="text-white">
-            A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.
-          </p>
-          <div class="btn btn-outline-light rounded-pill w-50">Shop now</div>
+  <section class="d-none d-md-block bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true);height: 870px;">
+    <div class="d-flex flex-column justify-content-center h-100">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-md-5">
+            <h2 class="text-white font-weight-bold">Perfume your day</h2>
+            <p class="text-white">
+              A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.
+            </p>
+            <div class="btn btn-outline-light rounded-pill w-100 w-md-50">Shop now</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <div class="container">
-    <div class="row mt-5 align-items-center">
-      <div class="col-6">
+  <section class="d-md-none bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true);height: 450px;">
+    <div class="d-flex flex-column justify-content-center h-100">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-12">
+            <h2 class="text-white font-weight-bold">Perfume your day</h2>
+            <p class="text-white">
+              A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.
+            </p>
+            <div class="btn btn-outline-light rounded-pill w-100 w-md-50">Shop now</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mb-5">
+    <div class="row mt-5 align-items-center justify-content-center">
+      <div class="col-9 d-md-none bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true); height: 350px;">
+      </div>
+      <div class="col-md-6 mt-1 mt-md-0 mb-4 mb-md-0">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-9 col-md-8">
             <h2 class="font-weight-bold">Gabrielle CHANEL</h2>
             <p>全新嗅覺體驗，花香四溢、明亮馥郁。結合茉莉、依蘭依蘭、橙花和最迷人的格拉斯晚香玉之花香，呈現出夢幻花香氣息。 極具女性特質的香奈兒嘉柏麗香水，專為光芒四射的她而生。</p>
             <a class="text-primary"href="#">查看更多</a>
           </div>
         </div>
       </div>
-      <div class="col-6 bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true); width: 555px; height: 555px;">
+      <div class="col-6 d-none d-md-block bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true); width: 555px; height: 555px;">
       </div>
     </div>
-    <div class="row align-items-center">
-      <div class="col-6 bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true); width: 555px; height: 555px;">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-6 d-none d-md-block bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true); width: 555px; height: 555px;">
       </div>
-      <div class="col-6">
+      <div class="col-9 d-md-none bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true); height: 350px;">
+      </div>
+      <div class="col-md-6 mt-1 mt-md-0 mb-4 mb-md-0">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-9 col-md-8">
             <h2 class="font-weight-bold">Five O’clock Au Gingembre</h2>
             <p>生薑與溫醇的肉桂香、紅糖的香甜摻和成一氣，溫暖微辛的氣息反倒形成一股輕煙氤氳開來，還帶點微微煙醺感漫溢在整個鼻息之間，細聞之下,又還有溫溫淡淡的木香，溫和而暖心。</p>
             <a class="text-primary"href="#">查看更多</a>
@@ -75,36 +99,70 @@
         </div>
       </div>
     </div>
-    <div class="row align-items-center">
-      <div class="col-6">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-9 d-md-none bg-cover-left" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true); height: 350px;">
+      </div>
+      <div class="col-md-6 mt-1 mt-md-0 mb-4 mb-md-0">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-9 col-md-8">
             <h2 class="font-weight-bold">CHANEL N°5</h2>
             <p>N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</p>
             <a class="text-primary"href="#">查看更多</a>
           </div>
         </div>
       </div>
-      <div class="col-6 bg-cover-left" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true); width: 555px; height: 555px;">
+      <div class="col-6 col-6 d-none d-md-block bg-cover-left" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true); width: 555px; height: 555px;">
       </div>
     </div>
-    <div class="row align-items-center">
-      <div class="col-6 bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true); height: 1080px;">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-6 d-none d-md-block bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true); height: 1080px;">
       </div>
-      <div class="col-6">
+      <div class="col-9 d-md-none bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true); height: 680px;">
+      </div>
+      <div class="col-md-6">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-9 col-md-8">
             <h3 class="font-weight-bold">1.<br>Levels of Preventive Maintenance Compliance</h3>
             <p>The core idea of preventative maintenance is the performance of proactive actions against unscheduled downtime in order to identify potential defects before they evolve into something more severe.</p>
           </div>
-          <div class="col-8 mt-5">
+          <div class="col-9 col-md-8 mt-2 mt-md-5">
             <h3 class="font-weight-bold">2.<br>Percentage of Planned Maintenance</h3>
             <p>The planned maintenance percentage is the total planned maintenance time in your CMMS software over a date range over the total number of hours of a service performed by the technicians.</p>
           </div>
-          <div class="col-8 mt-5">
+          <div class="col-9 col-md-8 mt-2 mt-md-5">
             <h3 class="font-weight-bold">3.<br>Critical percentage of planned maintenance</h3>
             <p>Calculating the critical percentage of planned maintenance will help you prioritize the most important operations that should be performed immediately.</p>
-            <div class="btn btn-outline-dark btn-block rounded-pill mt-5">Plan a free online training</div>
+            <div class="btn btn-outline-dark btn-block rounded-pill mt-2 mt-md-5">Plan a free online training</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-gray">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-md-4">
+          <div class="bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index6.jpg?raw=true); height: 540px;"></div>
+          <div>
+            <h4 class="font-weight-bold">Poppy & Barley</h4>
+            <p>Jo Malone</p>
+            <p>NT$1,380<span class="text-secondary ml-2">NT$1,580</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index7.jpg?raw=true); height: 540px;"></div>
+          <div>
+            <h4 class="font-weight-bold">Body Wash</h4>
+            <p>Curology</p>
+            <p>NT$1,580</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-cover" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index8.jpg?raw=true); height: 540px;"></div>
+          <div>
+            <h4 class="font-weight-bold">Body Wash</h4>
+            <p>Curology</p>
+            <p>NT$1,580</p>
           </div>
         </div>
       </div>

@@ -9662,4 +9662,8 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   background-position: left center;
 }
+
+.bg-gray {
+  background-color: #E0E0E0 !important;
+}
 /*# sourceMappingURL=all.min.css.map */
